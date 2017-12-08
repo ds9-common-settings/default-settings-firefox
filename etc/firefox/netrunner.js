@@ -31,7 +31,7 @@ pref("datareporting.policy.firstRunURL", ""); // Prevents from opening that up o
 pref("browser.tabs.closeWindowWithLastTab", false);
 pref("browser.tabs.loadInBackground", false);
 
-pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"home-button\",\"unified-back-forward-button\",\"customizableui-special-spring7\",\"urlbar-container\",\"reload-button\",\"stop-button\",\"customizableui-special-spring8\",\"new-window-button\",\"window-controls\",\"webrtc-status-button\",\"wrapper-customizableui-special-separator2\",\"ant-ctoolbar-rank\",\"downloads-button\"],\"TabsToolbar\":[\"appmenu-toolbar-button\",\"tabbrowser-tabs\",\"new-tab-button\",\"customizableui-special-spacer6\",\"ant-ctoolbar-dropdown\",\"dwhelper-toolbaritem\",\"action-button--b9db16a4-6edc-47ec-a1f4-b86292ed211d-vdh-tbbutton\",\"abp-toolbarbutton\",\"ublock0-button\",\"alltabs-button\",\"tabs-closebutton\",\"wrapper-customizableui-special-spacer4\",\"wrapper-customizableui-special-separator3\"],\"toolbar-menubar\":[\"menubar-items\",\"navigator-throbber\"],\"addon-bar\":[\"addonbar-closebutton\",\"customizableui-special-spacer1\",\"status-bar\"]},\"seen\":[\"abp-toolbarbutton\",\"action-button--b9db16a4-6edc-47ec-a1f4-b86292ed211d-vdh-tbbutton\",\"loop-button\",\"pocket-button\",\"developer-button\",\"ublock0-button\"],\"dirtyAreaCache\":[\"addon-bar\",\"PersonalToolbar\",\"nav-bar\",\"PanelUI-contents\",\"TabsToolbar\",\"toolbar-menubar\"],\"currentVersion\":12,\"newElementCount\":10}");
+pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"back-button\",\"forward-button\",\"urlbar-container\",\"stop-reload-button\",\"library-button\",\"search-container\",\"new-window-button\",\"home-button\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"downloads-button\",\"ublock0_raymondhill_net-browser-action\",\"anttoolbar_ant_com-browser-action\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"ublock0_raymondhill_net-browser-action\",\"developer-button\",\"anttoolbar_ant_com-browser-action\"],\"dirtyAreaCache\":[\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\"],\"currentVersion\":12,\"newElementCount\":0}");
 
 pref("browser.download.autohideButton", false);
 
@@ -47,6 +47,8 @@ pref("font.size.fixed.x-western", 13);
 
 pref("mousewheel.min_line_scroll_amount", 25);
 pref("mousewheel.system_scroll_override_on_root_content.enabled", true);
+
+pref("plugin.default.state", 2);
 
 pref("pref.privacy.disable_button.view_passwords", false);
 
