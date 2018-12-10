@@ -1,0 +1,33 @@
+{
+  "policies": {
+    "Bookmarks": [
+      {
+        "Favicon": "https://www.netrunner.com/favicon.ico",
+        "Placement": "toolbar",
+        "Title": "Netrunner",
+        "URL": "https://www.netrunner.com"
+      },
+      {
+        "Favicon": "https://forums.netrunner.com/favicon.ico",
+        "Placement": "toolbar",
+        "Title": "Netrunner Forums",
+        "URL": "https://forums.netrunner.com"
+      }
+    ],
+    "DisableProfileRefresh": true,
+    "DisplayBookmarksToolbar": true,
+    "DisplayMenuBar": true,
+    "Homepage": {
+      "URL": "https://www.google.com"
+    },
+    "Extensions": {
+      "Install": [
+        "//usr/lib/firefox/distribution/extensions/uBlock0@raymondhill.net.xpi",
+        "//usr/lib/firefox/distribution/extensions/plasma_integration-linux.xpi"
+      ]
+    },
+    "NoDefaultBookmarks": true,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": ""
+  }
+} 
