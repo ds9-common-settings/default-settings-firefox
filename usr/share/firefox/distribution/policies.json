@@ -8,7 +8,7 @@
     },
     "Extensions": {
       "Install": [
-        "//usr/lib/firefox/distribution/extensions/plasma_integration-linux.xpi"
+        "//usr/share/firefox/distribution/extensions/plasma_integration-linux.xpi"
       ]
     },
     "NoDefaultBookmarks": true,
