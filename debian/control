@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
 Package: netrunner-settings-firefox
-Architecture: any
+Architecture: all
 Breaks: default-settings-firefox
 Replaces: default-settings-firefox
 Recommends: webext-ublock-origin
