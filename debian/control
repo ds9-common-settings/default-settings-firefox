@@ -7,6 +7,7 @@ Standards-Version: 3.7.2
 
 Package: netrunner-settings-firefox
 Architecture: all
+Multi-Arch: foreign
 Breaks: default-settings-firefox
 Replaces: default-settings-firefox
 Recommends: webext-ublock-origin
