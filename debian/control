@@ -10,6 +10,6 @@ Architecture: all
 Multi-Arch: foreign
 Breaks: default-settings-firefox
 Replaces: default-settings-firefox
-Recommends: webext-ublock-origin
+Recommends: webext-ublock-origin-firefox
 Description: Default configuration for Firefox
  Default configuration for Firefox in Maui/Netrunner
